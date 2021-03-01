@@ -1,0 +1,425 @@
+/* premiere page */
+.font {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  left: -7px;
+  top: 0px;
+  background-attachment: fixed;
+  /* background: #e85a13; */
+  background: #ffffff;
+}
+.first-title {
+  position: absolute;
+  width: 560px;
+  height: 161px;
+  left: 244px;
+  top: 292px;
+
+  font-family: var(--Fredokaone);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.text-app {
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.fade {
+  opacity: 1;
+}
+
+.little-title {
+  position: absolute;
+  width: 560px;
+  height: 161px;
+  left: 244px;
+  top: 400px;
+
+  font-family: var(--Roboto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 160.4%;
+  /* or 40px */
+
+  color: #000000;
+}
+.btn {
+  position: absolute;
+  width: 181px;
+  height: 52px;
+  left: 244px;
+  top: 500px;
+}
+
+.end-font {
+  position: absolute;
+  background-image: url("./svg/image.svg");
+  width: 100%;
+  height: 709px;
+  top: 647px;
+}
+.image {
+  background-image: url(./svg/persona.svg);
+  position: absolute;
+  width: 563.75px;
+  height: 473.12px;
+  left: 836px;
+  top: 165px;
+}
+
+/* deuxieme page */
+.font2 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+
+  background: #000000;
+}
+.bigtitle {
+  position: absolute;
+  width: 565px;
+  height: 112px;
+  left: 721px;
+  top: 85px;
+
+  /* title style */
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+
+  color: #e27955;
+}
+.num1 {
+  position: absolute;
+  width: 69px;
+  height: 72px;
+  left: 636px;
+  top: 170px;
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+
+  color: #e27955;
+}
+.num2 {
+  position: absolute;
+  width: 69px;
+  height: 72px;
+  left: 636px;
+  top: 309px;
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+
+  color: #e27955;
+}
+.num3 {
+  position: absolute;
+  width: 69px;
+  height: 72px;
+  left: 636px;
+  top: 466px;
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+
+  color: #e27955;
+}
+.arrow1 {
+  position: absolute;
+  width: 66px;
+  height: 64px;
+  left: 1201px;
+  top: 594px;
+}
+.para1 {
+  position: absolute;
+  width: 595px;
+  height: 91px;
+  left: 735px;
+  top: 172px;
+
+  /* texte style */
+
+  font-family: Noto Sans Kannada;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+
+  color: #efefef;
+}
+.para2 {
+  position: absolute;
+  width: 543px;
+  height: 73px;
+  left: 735px;
+  top: 308px;
+
+  /* texte style */
+
+  font-family: Noto Sans Kannada;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.para3 {
+  position: absolute;
+  width: 543px;
+  height: 98px;
+  left: 735px;
+  top: 465px;
+
+  /* texte style */
+
+  font-family: Noto Sans Kannada;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.image2 {
+  position: absolute;
+  width: 851px;
+  height: 841px;
+  left: 174px;
+  top: 16px;
+
+  background: url(./svg/persona2.svg);
+}
+/* 3eme page */
+.font3 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+
+  background: #000000;
+}
+.second-title {
+  position: absolute;
+  width: 329px;
+  height: 268px;
+  left: 140px;
+  top: 110px;
+
+  /* title style */
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+
+  color: #e27955;
+}
+.second-color {
+  position: absolute;
+  width: 329px;
+  height: 268px;
+  left: 140px;
+  top: 110px;
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+.arrow2 {
+  position: absolute;
+  width: 167px;
+  height: 99px;
+  left: 404px;
+  top: 110px;
+}
+.rond {
+  position: absolute;
+  width: 346px;
+  height: 318px;
+  left: 624px;
+  top: 84px;
+  background-image: url(./svg/rond.svg);
+}
+a {
+  position: absolute;
+  width: 259px;
+  height: 178px;
+  left: 24px;
+  top: 135px;
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 39px;
+  line-height: 47px;
+  letter-spacing: -0.01em;
+
+  color: #070505;
+}
+.end-font2 {
+  position: absolute;
+  width: 100%;
+  height: 1152.46px;
+
+  right: inherit;
+  top: 0.46px;
+  background-image: url(./svg/image2.svg);
+
+  /* background: #e85a13; */
+}
+
+.bigend-title {
+  position: absolute;
+  width: 430px;
+  height: 137px;
+  left: 1143px;
+  top: 216px;
+
+  /* title style */
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.endpara1 {
+  position: absolute;
+  width: 420px;
+  height: 127px;
+  left: 1040px;
+  top: 365px;
+
+  /* texte style */
+
+  font-family: Noto Sans Kannada;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+
+  color: black;
+}
+.endpara2 {
+  position: absolute;
+  width: 360px;
+  height: 155px;
+  left: 1113px;
+  top: 500px;
+
+  /* texte style */
+
+  font-family: Noto Sans Kannada;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+
+  color: black;
+}
+.quest {
+  position: absolute;
+  width: 462px;
+  height: 194px;
+  left: 362px;
+  top: 734px;
+
+  /* title style */
+
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+.quest-style {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+/* animation */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s all ease-in-out;
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.footer {
+  position: absolute;
+  width: 1245px;
+  height: 10px;
+  left: 146px;
+  top: 550px;
+
+  font-family: Noto Sans Kannada;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 11px;
+  letter-spacing: 0.06em;
+
+  color: #000000;
+}
+/* global */
+body {
+  background-color: black;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  --Fredokaone: "Fredoka One", cursive;
+  --Roboto: "Roboto", sans-serif;
+}
