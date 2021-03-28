@@ -1,5 +1,5 @@
 // introduction animation
-const bigText = document.querySelector('.first-title');
+const bigText = document.querySelector('.bigtext');
 
 const newText = bigText.textContent;
 const splitText = newText.split("");
@@ -13,7 +13,7 @@ let timer = setInterval(onTick, 30);
 
 function onTick(){
     const span = bigText.querySelectorAll('span')[char];
-    span.classList.add('fade');
+    span.classList.add('ade');
     char++;
     if(char === splitText.length){
     complete();
@@ -48,7 +48,7 @@ function reveal(){
 window.addEventListener('scroll',reveal);
 
 
-const btn = document.querySelector('.btn1');
+const btn = document.querySelector('.btn');
 const heights = document.querySelector('.font2');
 const y = heights.getBoundingClientRect().bottom/2.3;
 console.log(y);
@@ -57,7 +57,7 @@ btn.addEventListener('click',function(){
     window.scrollBy(0,y);
     
 })
-const arrow = document.querySelector('.arrow1');
+const arrow = document.querySelector('.arrow');
 const arowHeights = document.querySelector('.font3');
 
 const arrowy = arowHeights.getBoundingClientRect().bottom/2.3;
@@ -65,3 +65,6 @@ const arrowy = arowHeights.getBoundingClientRect().bottom/2.3;
 arrow.addEventListener('click',function(){
     window.scrollBy(0,arrowy);
 })
+
+
+
